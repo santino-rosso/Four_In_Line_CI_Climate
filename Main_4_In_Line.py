@@ -1,9 +1,9 @@
-from Four_In_Line import FourInLine, FullColumn, OutOfBoard
+from Four_In_Line import CuatroInLine, FullColumn, OutOfBoard
 
 class MainFourInLine:
     
     def __init__(self):
-        self.game = FourInLine()
+        self.game = CuatroInLine()
         self.running = True
     
     def board(self):

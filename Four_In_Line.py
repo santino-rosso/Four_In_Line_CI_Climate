@@ -5,7 +5,7 @@ class FullColumn(Exception):
     pass
 
 
-class FourInLine:
+class CuatroInLine:
 
     def __init__(self):
         self.board=[[" " for column in range(8)] for row in range(8)]
